@@ -11,7 +11,7 @@ def home():
 
          {
         'title':'مولد كلمات المرور',
-        'description':'أداة بايثون تعمل عبر سطر الأوامر ، تقوم بإنشاء كلمات مرور عشوائية من الأحرف والارقام والرموز بحد أدنى للطول يبلغ 4',
+        'description':'أداة بايثون تعمل عبر سطر الأوامر ، تقوم بإنشاء كلمات مرور عشوائية من الأحرف والأرقام والرموز بحد أدنى للطول يبلغ 4',
         'tech_stack':'بايثون',
         'github_url':'https://github.com/LamaSlaibe/Password-Generator-main',
         'image':'images/Password-Generator.jpg'},
@@ -24,7 +24,7 @@ def home():
         'image':'images/youtube.jpg'},
         {
         'title':'إعادة تسمية وتنظيم الملفات',
-        'description':'تطبيق سطح مكتب لإعادة تسمية وتنظيم الملفات الضخمة بسرعة وسخولة بناء على قواعد مخصصة ',
+        'description':'تطبيق سطح مكتب لإعادة تسمية وتنظيم الملفات الضخمة بسرعة وسهولة بناء على قواعد مخصصة ',
         'tech_stack':'بايثون',
         'github_url':'https://github.com/LamaSlaibe/dirx-file-organizer',
         'image':'images/file.jpg'},
@@ -36,7 +36,7 @@ def home():
         'image':'images/sales.jpg'},
          {
         'title':'الة حاسبة بواجهة رسومية',
-        'description':'الة حاسبة ذكية بواجهة رسومية سهلة الاسنخدام لإجراء العمليات الحسابية بدقة وسرعة  ',
+        'description':'اّلة حاسبة ذكية بواجهة رسومية سهلة الاسنخدام لإجراء العمليات الحسابية بدقة وسرعة  ',
         'tech_stack':'بايثون',
         'github_url':'https://github.com/LamaSlaibe/TkinterCalculator-main',
         'image':'images/calculator.jpg'}
