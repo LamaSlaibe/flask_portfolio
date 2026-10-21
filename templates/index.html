@@ -135,9 +135,16 @@
                       <p class="description mixed-text"> {{ project.description }}</p>
                       <div class="tech-tags">
                         
-                        <span class="tag" dir="ltr">{{project.tech_stack }}</span>
+                        {% if project.tech_stack is string %}
+                        <span class="tag" dir="ltr"> {{project.tech_stack }}</span>
+                        {% else %}
+                            {% for tech in project.tech_stack %}
+                         <span class="tag" dir="ltr">{{tech}}</span>
+                            {% endfor %}
+                        {% endif %}    
+                        </div>  
                         
-                      </div>
+                      
                       <div class="card-actions">
                         <a href="{{ project.github_url }}" class="btn-github" target="_blank">github</a>
                       </div>
